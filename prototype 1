@@ -1,0 +1,15 @@
+# I have assigned variables to take in data from the user
+event = input("Name of your event ?")
+sports = input(f"Is "+ (event) + " considered a sport Answer in Yes or No ?")
+kauri = float(input("How many points were obtained by Kauri house ?"))
+Kowhai = float(input("How many points were obtained by Kowhai house ?" ))
+Rimu = float(input("How many points were obtained by Rimu  house ?"))
+Pohutukawa = float(input("How many points were obtained by Pohutukawa ?"))
+
+#Display the results recevied by the users
+print("Choice of Event : " + (event))
+print("Sport : " + (sports))
+print(f"Kauri : {kauri}")
+print(f"Kowhai :  {Kowhai}")
+print(f"Rimu :  {Rimu}")
+print(f"Pohutukawa :  {Pohutukawa}")
