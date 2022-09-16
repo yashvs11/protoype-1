@@ -1,0 +1,30 @@
+# function that ask for users event name , sport or not and if the user gives a wrong answer it will tell the user they are in the wrong
+def event():
+    name = input("name of your event ?")
+    sport = input("is considered a sport? ")
+    if sport == "yes" and "no":
+        return points()
+    else:
+        print("input a valid answer")
+
+def points():
+    yellow = int(input("how many points were obtained from yellow team ? "))
+    red = int(input("how many points were obtained from red team ? "))
+    blue = int(input("how many points were obtained from blue team ? "))
+    green = int(input("how many points were obtained from the green team ? "))
+#if the user enters a number more thsn 100 it will the user to enter a value below 100
+    if yellow  >100:
+        print(f"invalid enter a number less than 100 for yellow ")
+    if red >100:
+        print(f"invalid enter a number less than 100 for red")
+    if blue >100:
+        print(f"invalid enter a number less than 100 blue")
+    if green >100:
+        print(f"invalid enter a number less than 100 green")
+#printing out the points
+    print(f"yellow house has {yellow} points")
+    print(f"red house has {red} points")
+    print(f"blue house has {blue} points")
+    print(f"green house has {green} points")
+#calling out the function so it can work
+print(event())
