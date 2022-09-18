@@ -1,2 +1,2 @@
-# protoype-1
+# Event Calculator
 this is my first prototype
